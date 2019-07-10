@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'sb-service-lib',
+  selector: 'sb-sbed-service-lib',
   template: `
     <p>
-      service-lib works!
+      sbed-service-lib works!
     </p>
   `,
   styles: []

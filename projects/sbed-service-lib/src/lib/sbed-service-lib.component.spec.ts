@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ServiceLibComponent } from './service-lib.component';
+import { ServiceLibComponent } from './sbed-service-lib.component';
 
 describe('ServiceLibComponent', () => {
   let component: ServiceLibComponent;

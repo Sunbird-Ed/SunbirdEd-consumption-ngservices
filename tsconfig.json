@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "service-lib": [
-        "dist/service-lib"
+      "sbed-service-lib": [
+        "dist/sbed-service-lib"
       ],
-      "service-lib/*": [
-        "dist/service-lib/*"
+      "sbed-service-lib/*": [
+        "dist/sbed-service-lib/*"
       ]
     }
   }

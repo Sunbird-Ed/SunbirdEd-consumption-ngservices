@@ -3,33 +3,33 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "service-lib": {
-      "root": "projects/service-lib",
-      "sourceRoot": "projects/service-lib/src",
+    "sbed-service-lib": {
+      "root": "projects/sbed-service-lib",
+      "sourceRoot": "projects/sbed-service-lib/src",
       "projectType": "library",
       "prefix": "sb",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/service-lib/tsconfig.lib.json",
-            "project": "projects/service-lib/ng-package.json"
+            "tsConfig": "projects/sbed-service-lib/tsconfig.lib.json",
+            "project": "projects/sbed-service-lib/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/service-lib/src/test.ts",
-            "tsConfig": "projects/service-lib/tsconfig.spec.json",
-            "karmaConfig": "projects/service-lib/karma.conf.js"
+            "main": "projects/sbed-service-lib/src/test.ts",
+            "tsConfig": "projects/sbed-service-lib/tsconfig.spec.json",
+            "karmaConfig": "projects/sbed-service-lib/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/service-lib/tsconfig.lib.json",
-              "projects/service-lib/tsconfig.spec.json"
+              "projects/sbed-service-lib/tsconfig.lib.json",
+              "projects/sbed-service-lib/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -39,5 +39,5 @@
       }
     }
   },
-  "defaultProject": "service-lib"
+  "defaultProject": "sbed-service-lib"
 }

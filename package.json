@@ -5,10 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build_lib": "ng build service-lib",
-    "npm_pack": "cd dist/service-lib && npm pack",
+    "build_lib": "ng build sbed-service-lib",
+    "npm_pack": "cd dist/sbed-service-lib && npm pack",
     "package": "npm run build_lib && npm run npm_pack",
-    "publish_lib": "npm run package && npm publish ./dist/service-lib/**.tgz",
+    "publish_lib": "npm run package && npm publish ./dist/sbed-service-lib/**.tgz",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
