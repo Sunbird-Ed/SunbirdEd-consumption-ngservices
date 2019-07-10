@@ -4,24 +4,25 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This is a library project not deployable on server
 
-## Code scaffolding
+## Build Library
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `npm run build_lib` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Build
+## Packaging Library
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `npm run package`.
 
-## Running unit tests
+## Publishing Library
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm publish_lib` to publish library to npm [npm](https://www.npmjs.com/).
 
-## Running end-to-end tests
+Note: This capability is not availiable for all users will be availiable on request.Please contact Mobile Consumption Team for more details
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Steps to include Library
 
-## Further help
+Step 1: Include Library Module in App Module.
+```js
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
